@@ -41,7 +41,7 @@ class Calculator:
 def __init__(self):
     pass
 
-def addit(self, a, b):
+def add(self, a, b):
     self.result = addition(a, b)
     return self.result
 
