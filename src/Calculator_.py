@@ -38,29 +38,32 @@ def sqroot(a):
 class Calculator:
     result = 0
 
-def __init__(self):
-    pass
 
-def add(self, a, b):
-    self.result = addition(a, b)
-    return self.result
 
-def subt(self, a, b):
+
+    def __init__(self):
+        pass
+
+    def add(self, a, b):
+        self.result = addition(a, b)
+        return self.result
+
+    def sub(self, a, b):
         self.result = subtraction(a, b)
         return self.result
 
-def multi(self, a, b):
+    def multiply(self, a, b):
         self.result = multiplication(a, b)
         return self.result
 
-def divi(self, a, b):
+    def divide(self, a, b):
         self.result = round(division(a, b), 9)
         return self.result
 
-def squaredig(self, a):
+    def squares(self, a):
         self.result = square(a)
         return self.result
 
-def square_root(self, a):
+    def square_root(self, a):
         self.result = sqroot(a)
         return self.result
